@@ -1,0 +1,26 @@
+[0.306s] Invoking command in '/home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw': PYTHONPATH=/home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw/build --no-deps symlink_data
+[0.429s] running develop
+[0.478s] running egg_info
+[0.479s] creating turtle_draw.egg-info
+[0.479s] writing turtle_draw.egg-info/PKG-INFO
+[0.479s] writing dependency_links to turtle_draw.egg-info/dependency_links.txt
+[0.479s] writing entry points to turtle_draw.egg-info/entry_points.txt
+[0.479s] writing requirements to turtle_draw.egg-info/requires.txt
+[0.479s] writing top-level names to turtle_draw.egg-info/top_level.txt
+[0.479s] writing manifest file 'turtle_draw.egg-info/SOURCES.txt'
+[0.479s] reading manifest file 'turtle_draw.egg-info/SOURCES.txt'
+[0.479s] writing manifest file 'turtle_draw.egg-info/SOURCES.txt'
+[0.480s] running build_ext
+[0.481s] Creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/lib/python3.10/site-packages/turtle-draw.egg-link (link to .)
+[0.481s] Installing turtle_controller script to /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/lib/turtle_draw
+[0.481s] 
+[0.481s] Installed /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw
+[0.481s] running symlink_data
+[0.481s] creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/ament_index
+[0.481s] creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/ament_index/resource_index
+[0.481s] creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/ament_index/resource_index/packages
+[0.481s] symbolically linking /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw/resource/turtle_draw -> /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/ament_index/resource_index/packages
+[0.482s] symbolically linking /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw/package.xml -> /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/turtle_draw
+[0.482s] creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/turtle_draw/launch
+[0.482s] symbolically linking /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw/launch/turtle_draw.launch.py -> /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/turtle_draw/launch
+[0.497s] Invoked command in '/home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw' returned '0': PYTHONPATH=/home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw/build --no-deps symlink_data

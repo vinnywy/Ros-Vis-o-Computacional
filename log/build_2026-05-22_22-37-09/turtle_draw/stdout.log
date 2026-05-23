@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating turtle_draw.egg-info
+writing turtle_draw.egg-info/PKG-INFO
+writing dependency_links to turtle_draw.egg-info/dependency_links.txt
+writing entry points to turtle_draw.egg-info/entry_points.txt
+writing requirements to turtle_draw.egg-info/requires.txt
+writing top-level names to turtle_draw.egg-info/top_level.txt
+writing manifest file 'turtle_draw.egg-info/SOURCES.txt'
+reading manifest file 'turtle_draw.egg-info/SOURCES.txt'
+writing manifest file 'turtle_draw.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/lib/python3.10/site-packages/turtle-draw.egg-link (link to .)
+Installing turtle_controller script to /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/lib/turtle_draw
+
+Installed /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw
+running symlink_data
+creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/ament_index
+creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/ament_index/resource_index
+creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/ament_index/resource_index/packages
+symbolically linking /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw/resource/turtle_draw -> /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/ament_index/resource_index/packages
+symbolically linking /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw/package.xml -> /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/turtle_draw
+creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/turtle_draw/launch
+symbolically linking /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/build/turtle_draw/launch/turtle_draw.launch.py -> /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/install/turtle_draw/share/turtle_draw/launch

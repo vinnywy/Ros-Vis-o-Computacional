@@ -2,7 +2,6 @@ from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, TimerAction
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
-import os
 
 def generate_launch_description():
 
@@ -16,7 +15,6 @@ def generate_launch_description():
         package="turtlesim",
         executable="turtlesim_node",
         name="turtlesim",
-        additional_env={"LD_PRELOAD": ""},  # limpa o LD_PRELOAD do snap
     )
 
     # TimerAction aguarda 2s para o turtlesim subir antes de conectar
@@ -28,9 +26,9 @@ def generate_launch_description():
             name="turtle_controller",
             parameters=[{
                 "image_path":     LaunchConfiguration("image_path"),
-                "blur_sigma":     1.0,
-                "edge_threshold": 0.10,
-                "max_points":     1200,
+                "blur_sigma":     1.4,
+                "edge_threshold": 0.15,
+                "max_points":     600,
             }],
             output="screen",
         )],

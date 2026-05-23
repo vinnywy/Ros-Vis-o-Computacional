@@ -83,3 +83,19 @@ def run_pipeline(image_path: str, blur_sigma: float = 1.4, edge_threshold: float
     print(f"[preprocessing] Imagem: {img.shape[1]}x{img.shape[0]}")
     print(f"[preprocessing] Pixels de borda: {(edges > 0).sum()}")
     return edges, img.shape
+
+if __name__ == "__main__":
+    import matplotlib.pyplot as plt
+    import sys
+
+    path = sys.argv[1] if len(sys.argv) > 1 else "dog.png"
+    edges, _ = run_pipeline(path)
+
+    plt.figure(figsize=(8, 6))
+    plt.imshow(edges, cmap="gray")
+    plt.title("Bordas detectadas (Sobel)")
+    plt.axis("off")
+    plt.tight_layout()
+    plt.savefig("bordas_resultado.png", dpi=150)
+    plt.show()
+    print("Salvo em bordas_resultado.png")

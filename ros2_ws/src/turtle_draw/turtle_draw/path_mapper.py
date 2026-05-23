@@ -28,18 +28,14 @@ def extract_and_downsample(edges: np.ndarray, max_points: int = 800) -> np.ndarr
 
 
 def map_to_turtlesim(coords: np.ndarray, img_shape: tuple) -> np.ndarray:
-    """
-    Converte coordenadas de pixel para o espaco do turtlesim.
-    Eixo Y invertido: imagem cresce para baixo, turtlesim cresce para cima.
-    """
     H, W = img_shape[:2]
     rows, cols = coords[:, 0], coords[:, 1]
 
-    x = TURTLE_MIN + (cols / W) * (TURTLE_MAX - TURTLE_MIN)
+    # Espelha X para corrigir orientacao
+    x = TURTLE_MAX - (cols / W) * (TURTLE_MAX - TURTLE_MIN)
     y = TURTLE_MAX - (rows / H) * (TURTLE_MAX - TURTLE_MIN)
 
     return np.column_stack([x, y])
-
 
 def order_by_nearest_neighbor(points: np.ndarray) -> np.ndarray:
     """
@@ -63,7 +59,7 @@ def order_by_nearest_neighbor(points: np.ndarray) -> np.ndarray:
     return np.array(ordered)
 
 
-def build_path(edges: np.ndarray, img_shape: tuple, max_points: int = 600) -> np.ndarray:
+def build_path(edges: np.ndarray, img_shape: tuple, max_points: int = 1200) -> np.ndarray:
     """Pipeline completo: pixels de borda -> caminho ordenado em espaco turtlesim."""
     coords = extract_and_downsample(edges, max_points)
     turtle = map_to_turtlesim(coords, img_shape)

@@ -24,9 +24,9 @@ class TurtleController(Node):
         super().__init__("turtle_controller")
 
         self.declare_parameter("image_path",     "dog.png")
-        self.declare_parameter("blur_sigma",     1.4)
-        self.declare_parameter("edge_threshold", 0.15)
-        self.declare_parameter("max_points",     600)
+        self.declare_parameter("blur_sigma",     1.0)
+        self.declare_parameter("edge_threshold", 0.10)
+        self.declare_parameter("max_points",     1200)
 
         self._teleport = self.create_client(TeleportAbsolute, "/turtle1/teleport_absolute")
         self._set_pen  = self.create_client(SetPen,           "/turtle1/set_pen")
@@ -62,12 +62,12 @@ class TurtleController(Node):
         image_path     = self.get_parameter("image_path").value
         blur_sigma     = self.get_parameter("blur_sigma").value
         edge_threshold = self.get_parameter("edge_threshold").value
-        max_points     = self.get_parameter("max_points").value
+        max_points = self.get_parameter("max_points").value
 
         edges, img_shape = run_pipeline(image_path, blur_sigma, edge_threshold)
         path = build_path(edges, img_shape, max_points)
 
-        self.get_logger().info(f"Desenhando {len(path)} pontos...")
+        self.get_logger().info(f"max_points recebido: {max_points}") 
         self._draw_path(path)
         self.get_logger().info("Desenho concluido.")
 

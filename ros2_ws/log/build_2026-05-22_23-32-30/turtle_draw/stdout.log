@@ -1,0 +1,25 @@
+running egg_info
+creating ../../build/turtle_draw/turtle_draw.egg-info
+writing ../../build/turtle_draw/turtle_draw.egg-info/PKG-INFO
+writing dependency_links to ../../build/turtle_draw/turtle_draw.egg-info/dependency_links.txt
+writing entry points to ../../build/turtle_draw/turtle_draw.egg-info/entry_points.txt
+writing requirements to ../../build/turtle_draw/turtle_draw.egg-info/requires.txt
+writing top-level names to ../../build/turtle_draw/turtle_draw.egg-info/top_level.txt
+writing manifest file '../../build/turtle_draw/turtle_draw.egg-info/SOURCES.txt'
+reading manifest file '../../build/turtle_draw/turtle_draw.egg-info/SOURCES.txt'
+writing manifest file '../../build/turtle_draw/turtle_draw.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/ros2_ws/install/turtle_draw/share/ament_index
+creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/ros2_ws/install/turtle_draw/share/ament_index/resource_index
+creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/ros2_ws/install/turtle_draw/share/ament_index/resource_index/packages
+copying resource/turtle_draw -> /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/ros2_ws/install/turtle_draw/share/ament_index/resource_index/packages
+copying package.xml -> /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/ros2_ws/install/turtle_draw/share/turtle_draw
+creating /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/ros2_ws/install/turtle_draw/share/turtle_draw/launch
+copying launch/turtle_draw.launch.py -> /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/ros2_ws/install/turtle_draw/share/turtle_draw/launch
+running install_egg_info
+Copying ../../build/turtle_draw/turtle_draw.egg-info to /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/ros2_ws/install/turtle_draw/lib/python3.10/site-packages/turtle_draw-0.1.0-py3.10.egg-info
+running install_scripts
+Installing turtle_controller script to /home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/ros2_ws/install/turtle_draw/lib/turtle_draw
+writing list of installed files to '/home/vinnywy/Documentos/Github/Ros-Vis-o-Computacional/ros2_ws/build/turtle_draw/install.log'
